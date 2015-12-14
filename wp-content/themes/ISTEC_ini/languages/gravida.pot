@@ -1,0 +1,591 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravida\n"
+"POT-Creation-Date: 2015-05-25 10:51+0530\n"
+"PO-Revision-Date: 2015-05-25 10:51+0530\n"
+"Last-Translator: SKT Themes <support@sktthemes.com>\n"
+"Language-Team: SKT Themes <support@sktthemes.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn.....<br />Don't worry... it happens "
+"to the best of us."
+msgstr ""
+
+#: archive.php:30
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:38
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:41
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:44
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:47
+msgid "Asides"
+msgstr ""
+
+#: archive.php:50
+msgid "Images"
+msgstr ""
+
+#: archive.php:53
+msgid "Videos"
+msgstr ""
+
+#: archive.php:56
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:59
+msgid "Links"
+msgstr ""
+
+#: archive.php:62
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: comments.php:36
+#: comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37
+#: comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38
+#: comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18
+#: content-single.php:28
+#: content.php:32
+#: image.php:59
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23
+#: content-single.php:40
+#: content.php:66
+#: image.php:33
+#: image.php:65
+#: inc/template-tags.php:70
+#: inc/template-tags.php:89
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:33
+#: content.php:16
+#: content.php:43
+#: content.php:53
+msgid ", "
+msgstr ""
+
+#: content-single.php:34
+msgid "&nbsp;|&nbsp; Tags: "
+msgstr ""
+
+#: content.php:25
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:47
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:57
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:63
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:63
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:63
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:13
+msgid "contact_title"
+msgstr ""
+
+#: footer.php:15
+msgid "contact_desc"
+msgstr ""
+
+#: footer.php:18
+msgid "contact_add"
+msgstr ""
+
+#: footer.php:21
+msgid "contact_no"
+msgstr ""
+
+#: footer.php:30
+msgid "Recent Tweets"
+msgstr ""
+
+#: footer.php:31
+msgid "User twitter widget for twitter feed."
+msgstr ""
+
+#: footer.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: footer.php:48
+msgid "Follow Us"
+msgstr ""
+
+#: footer.php:51
+msgid "Facebook"
+msgstr ""
+
+#: footer.php:54
+msgid "Twitter"
+msgstr ""
+
+#: footer.php:57
+msgid "Google +"
+msgstr ""
+
+#: footer.php:60
+msgid "Linkedin"
+msgstr ""
+
+#: footer.php:71
+msgid "footer_right"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:60
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:61
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:70
+msgid "Twitter Widget"
+msgstr ""
+
+#: functions.php:71
+msgid "Appears on footer of the page"
+msgstr ""
+
+#: header.php:28
+msgid "Go To..."
+msgstr ""
+
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: index.php:61
+msgid "Read More >"
+msgstr ""
+
+#: index.php:68
+msgid "Page Title"
+msgstr ""
+
+#: index.php:69
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget sapien "
+"nec eros ultricies eleifend non imperdiet tortor. Duis vulputate dignissim "
+"ante. Suspendisse vehicula quam vel pharetra molestie."
+msgstr ""
+
+#: index.php:70
+#: index.php:100
+msgid "Read More"
+msgstr ""
+
+#: index.php:80
+msgid "Latest Blog"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Logo &amp; Favicon (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "<strong>Logo and favicon Settings available in <a href=\""
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "<strong>More color options in <a href=\""
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Add footer copyright text"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "To remove credit &amp; copyright text upgrade to PRO version"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid ""
+"<a href=\"#\">Home</a> | <a href=\"#\">Contact Us</a> | <a href=\"#"
+"\">Sitemap</a>"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Footer right text"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:116
+msgid ""
+"Add slider images here. <br><strong>More slider settings available in <a "
+"href=\""
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Slide Image 1 (1400x446)"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "The Next Level in WordPress Theme"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Slider title 1"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Take your Website to the next level."
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Slider description  1"
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Slide link 1"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Slide image 2"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Gravida WordPress Theme"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Slide title 2"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Responsive & Retina Ready with Clean and Modern Design"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Slide description 2"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Slide link 2"
+msgstr ""
+
+#: inc/customizer.php:243
+msgid "Slide Image 3"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid "Incredible Ease of Customization"
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Slide title 3"
+msgstr ""
+
+#: inc/customizer.php:262
+msgid "Re-Usable features with amazing user experience"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Slide Description 3"
+msgstr ""
+
+#: inc/customizer.php:284
+msgid "Slide link 3"
+msgstr ""
+
+#: inc/customizer.php:299
+msgid "Slide Image 4"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Slide title 4"
+msgstr ""
+
+#: inc/customizer.php:327
+msgid "Slide description 4"
+msgstr ""
+
+#: inc/customizer.php:340
+msgid "Slide link 4"
+msgstr ""
+
+#: inc/customizer.php:355
+msgid "Slide image 5"
+msgstr ""
+
+#: inc/customizer.php:368
+msgid "Slide title 5"
+msgstr ""
+
+#: inc/customizer.php:383
+msgid "Slide description 5"
+msgstr ""
+
+#: inc/customizer.php:396
+msgid "Slide link 5"
+msgstr ""
+
+#: inc/customizer.php:402
+msgid "Homepage Boxes"
+msgstr ""
+
+#: inc/customizer.php:403
+msgid "Select Pages from the dropdown"
+msgstr ""
+
+#: inc/customizer.php:418
+msgid "Choose a page for box one:"
+msgstr ""
+
+#: inc/customizer.php:429
+msgid "Choose a page for box two:"
+msgstr ""
+
+#: inc/customizer.php:439
+msgid "Choose a page for box three:"
+msgstr ""
+
+#: inc/customizer.php:449
+msgid "Choose a page for box four:"
+msgstr ""
+
+#: inc/customizer.php:454
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer.php:455
+msgid ""
+"Add social icons link here. <br><strong>More icon available in <a href=\""
+msgstr ""
+
+#: inc/customizer.php:465
+msgid "Add facebook link here"
+msgstr ""
+
+#: inc/customizer.php:476
+msgid "Add twitter link here"
+msgstr ""
+
+#: inc/customizer.php:487
+msgid "Add google plus link here"
+msgstr ""
+
+#: inc/customizer.php:498
+msgid "Add linkedin link here"
+msgstr ""
+
+#: inc/customizer.php:504
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer.php:505
+msgid "Add you contact details here"
+msgstr ""
+
+#: inc/customizer.php:510
+msgid "Contact Gravida"
+msgstr ""
+
+#: inc/customizer.php:515
+msgid "Add contact title here"
+msgstr ""
+
+#: inc/customizer.php:521
+msgid "If you have any questions don't hesitate to contact us"
+msgstr ""
+
+#: inc/customizer.php:530
+msgid "Add contact description here"
+msgstr ""
+
+#: inc/customizer.php:538
+msgid "Dummy Donec Rutrum, 1234 N Duis lacinia vel."
+msgstr ""
+
+#: inc/customizer.php:547
+msgid "Add contact address here"
+msgstr ""
+
+#: inc/customizer.php:555
+msgid "+123 456 7890"
+msgstr ""
+
+#: inc/customizer.php:560
+msgid "Add contact number here."
+msgstr ""
+
+#: inc/customizer.php:571
+msgid "Add you email here"
+msgstr ""
+
+#: inc/customizer.php:579
+msgid "Layout Settings (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:581
+msgid "<strong>Layout Settings available in  <a href=\""
+msgstr ""
+
+#: inc/customizer.php:600
+msgid "Fonts Settings (PRO Version)"
+msgstr ""
+
+#: inc/customizer.php:602
+msgid "<strong>Font Settings available in <a href=\""
+msgstr ""
+
+#: inc/customizer.php:621
+msgid "Documentation &amp; Support"
+msgstr ""
+
+#: inc/customizer.php:623
+msgid "For documentation and support check this link : <a href=\""
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:184
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""

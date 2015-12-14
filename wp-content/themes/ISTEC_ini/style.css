@@ -1,0 +1,269 @@
+/*
+Theme Name: ISTEC
+Theme URI: 
+Author: SKT Themes
+Author URI: 
+Description: SKT Gravida as the name suggests is a corporate multipurpose WordPress theme. It is a responsive theme and is suitable for any kind of industry. So not just Corporate but other websites also can use it. Theme options and templates make this theme very easy to use. Compatible with popular plugins like WooCommerce and Contact form 7. Slider and content portions easy to set up and use. Demo Link: http://sktthemesdemo.net/gravida/
+
+Version: 1.3.4
+License: GNU General Public License
+License URI: license.txt
+Text Domain: gravida
+Tags: green, white, light, two-columns, right-sidebar, responsive-layout, custom-background, custom-menu, featured-images,full-width-template,theme-options,threaded-comments
+
+SKT Gravida WordPress Theme has been created by SKT Themes(sktthemes.net), 2014.
+SKT Gravida WordPress Theme is released under the terms of GNU GPL
+*/
+body{ margin:0; padding:0;line-height:20px; font:12px arial;}
+*{ margin:0; padding:0;}
+img{ border:none; margin:0; padding:0; height:auto}
+.wp-caption, .wp-caption-text, .sticky, .gallery-caption, .aligncenter{ margin:0; padding:0;}
+p{ margin:0; padding:0;}
+.postmeta a:hover, a, #footer .widget-column a:hover, #copyright a:hover{ text-decoration:none; color:#0ec7ab;}
+ol,ul{ margin:0; padding:0;}
+ul li ul, ul li ul li ul, ol li ol, ol li ol li ol{ margin-left:10px;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
+h3{line-height:29px;}
+.clear{ clear:both;}
+.alignnone{ width:100% !important;}
+img.alignleft, .alignleft{ float:left; margin:0 15px 0 0; padding:5px; border:1px solid #cccccc;}
+img.alignright, .alignright{ float:right; margin:0 0 0 15px; padding:5px; border:1px solid #cccccc;}
+
+
+
+/* ------ Added-To-Main ----- */
+@font-face {
+ 	font-family: 'Source-Reg';
+  	src: url('fonts/reg/sourcesanspro-regular-webfont.eot');
+  	src: url('fonts/reg/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/reg/sourcesanspro-regular-webfont.woff2') format('woff2'),
+        url('fonts/reg/sourcesanspro-regular-webfont.woff') format('woff'),
+        url('fonts/reg/sourcesanspro-regular-webfont.ttf') format('truetype'),
+        url('fonts/reg/sourcesanspro-regular-webfont.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;	 
+}
+
+@font-face {
+ 	font-family: 'Source-Bold';
+  	src: url('fonts/bold/sourcesanspro-bold-webfont.eot');
+  	src: url('fonts/bold/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/bold/sourcesanspro-bold-webfont.woff2') format('woff2'),
+        url('fonts/bold/sourcesanspro-bold-webfont.woff') format('woff'),
+        url('fonts/bold/sourcesanspro-bold-webfont.ttf') format('truetype'),
+        url('fonts/bold/sourcesanspro-bold-webfont.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;	 
+}
+
+#content{margin-top:20px;}
+h1, h2, h2.featured, h3, #content h1.entry-title{font-family:'Source-Reg' !important; font-weight:normal;} 
+h1{font-size:37px;}
+h2.featured{font-size:34px; color:#FFF !important; font-weight:normal;}
+h2.featured a{color:#323232 !important;}
+h3 a{color:#323232 !important;}
+h2{font-size:33px; color:#323232;}
+h3{font-size:25px; color:#323232;}
+h4 {font-family:'Source-Reg'; font-size:21px; text-transform:uppercase;}
+h4.home-heading{ font-family:'Source-Bold'; color:#323232;}
+h5.member-price-label{font-family:'Source-Reg'; font-size:18px; color:#FFBE00; font-weight:normal;}
+h5.benefits-label{font-family:'Source-Reg'; font-size:18px; font-weight:normal;}
+
+.header-top-area{width:100%; height:64px;}
+.menu-istec-secondary-menu-container{float:left; margin: 20px 50px 0 0; }
+#menu-istec-secondary-menu  li{float:left; list-style:none; margin:11px 0 0 25px; font-family: 'Source-Reg'; font-size:13px;}
+#menu-istec-secondary-menu  li a{color:#5096A0;}
+.site-nav{text-transform:uppercase !important; font-family:Source-Bold !important; padding:14px 0 0 0 !important;}
+.site-nav div:first-child{float:left;}
+.site-nav ul li{margin: 0 0 0 0 !important;}
+.site-nav ul li:first-child{margin:0 0 0 0 !important;}
+.site-nav ul li:last-child{margin:0 0 0 0 !important;}
+.site-nav .menu{overflow:hidden; width:auto; float:left;}
+.site-nav p{font-family:'Source-Reg'; color:#DCDCDC; float:left; margin:10px 40px 0 15px;}
+.header-top-area input{height:30px; width:250px; margin:20px 0 0 0;}
+
+#content h1.entry-title{text-transform:none !important;}
+
+.site-aligner{overflow:hidden;}
+.left-content{width:765px; float:left; border-right:1px solid #E6E6E6;}
+.left-content-related{width:730px; float:left;}
+.sidebar_right{width:265px;}
+.sidebar_right li{list-style:none; font-family:'Source-Reg'; font-size:15px;}
+.sidebar_right h4{border-bottom:1px solid #4BA0AA; font-weight:normal;}
+.sidebar_right li {padding:12px 0 12px 0; border-bottom: 1px solid #E6E6E6;}
+.sidebar_right li:last-child{border-bottom: none;}
+.sidebar_right li a{font-family:'Source-Reg'; font-size:15px ;color:#4BA0AA;}
+.sidebar-top-space{position:relative; top:15px;}
+.entry-content{padding-right:70px !important;}
+.entry-title{padding: 0px 0 15px 0;}
+.entry-title, .entry-content{}
+.entry-content p{font-family:'Source-Reg'; font-size:18px;}
+.post-date{text-transform:uppercase;}
+
+.left-wrapper{width:70%; float:left;}
+.right-wrapper{width:30%; float:left;}
+.feature-box-main{margin-top:20px !important;}
+
+ .nivo-caption h1 a{background: none !important;}
+ 
+ #footer{background-color:#4BA0AA !important;}
+ #footer .widget-column{width:41% !important;}
+ #footer p{font-family:'Source-Reg'; font-size:14px;}
+ #footer p span{font-family:'Source-Bold';}
+
+/* ------ GENERAL ------- */
+.secondary-menu-and-search{float:right;}
+.entry-title-underlined{border-bottom:1px solid #4BA0AA;}
+.context{width:100%; height:140px; background-color:#4BA0AA;}
+.context h1, .common-context h1, .common-context-2 h1, .events-context h1{color:#FFBE00; margin:44px 0 0 0;}
+.common-context{width:100%; height:140px; background-image:url('images/contxt/common-contxt-bg.jpg');}
+.common-context-2{width:100%; height:140px; background-image:url('images/contxt/common-contxt-2.jpg');}
+.events-context{width:100%; height:140px; background-image:url('images/contxt/events-context.jpg');}
+.module-list-item-wrapper{width:336px; float:left; margin:0 5px 9px 5px;
+						-moz-box-shadow:    0 1px 3px -1px #999;
+						-webkit-box-shadow: 0 1px 3px -1px #999;
+						box-shadow:         0 1px 3px -1px #999;}
+.list-wrapper{ -moz-box-shadow:    inset 0 2px 3px -2px #999;
+			   -webkit-box-shadow: inset 0 2px 3px -2px #999;
+			   box-shadow:         inset 0 2px 3px -2px #999;}
+.top-id{width:100%; height:3px; background-color: #96C8D2;}
+.top-id li{width:90px; height:100%; background-color: #4BA0AA; padding:0 !important; list-style:none;}
+.entry-content-item{margin:20px 0; padding:0 0 30px 0px;}
+.entry-content-item .content p{float:none;}
+.sidebar-page-links{display: block; margin: 0 0 10px 0; overflow: hidden;}
+.sidebar-page-links li{border-bottom:1px solid #E6E6E6 !important; padding:7px 0;}
+.sidebar-page-links a{font-size:21px !important;}
+
+
+/* ------ Woocommerce ------- */
+select.orderby{ margin:0; padding:0; height:35px; font:14x 'PT Sans', Helvetica, sans-serif; color:#4e4e4e; border:1px solid #cccccc;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:#7ab040 !important;}
+
+.team_links{text-align:center; padding:10px 0; border-top:1px #fff solid;}
+.member_info{background:#f6f6f6; text-align:center; margin-top:10px;}
+.member_dtl{padding:15px;}
+.member_dtl p{ margin:5px 0 !important;}
+
+
+.mobile_nav a{background:url(images/mobile_nav_right.png) no-repeat right center #f6f6f6; border:1px #ccc solid; margin:10px 0 0; padding:8px 20px; display:none; font:400 20px 'Roboto Condensed',san-serif;}
+
+.pagination{display:table; clear:both;}
+.pagination ul{list-style:none; margin:20px 0;}
+.pagination ul li{display:inline; float:left; margin-right:5px;}
+.pagination ul li span, .pagination ul li a{background:#313131; color:#fff; padding:5px 10px; display:inline-block;}
+.pagination ul li .current, .pagination ul li a:hover{background:#0ec7ab;}
+
+#comment-nav-above .nav-previous, #comment-nav-below .nav-previous{ float:none !important; margin:10px 0;}
+ol.comment-list li{ list-style:none; margin-bottom:5px;}
+
+/* ------ INDEX ------- */
+
+.home-initiatives-wrapper{height:390px;}
+.home-initiatives-item{float:left; height:140px; width:336px; margin:0 5px 9px 5px;}
+.initia-title{color:#fff; text-transform:uppercase; font-weight:normal; margin:15px 0 0 18px;}
+.news-title{font-weight:normal; padding:10px 0;}
+.news-title a{font-size:25px !important;}
+.home-section-header{border-bottom:1px solid #DCDCDC; overflow:hidden; margin-bottom:15px;}
+.home-section-header h4{float: left;}
+.home-section-header a{float: right; font-family:'Source-Reg'; font-size:20px; color:#5096A0;}
+.home-section-content{clear:both;}
+.one_fourth{background-color:#FFF; min-height:395px; width:32.3% !important; margin-right:1.5% !important;
+			-moz-box-shadow:    0 1px 3px -1px #999;
+			-webkit-box-shadow: 0 1px 3px -1px #999;
+			box-shadow:         0 1px 3px -1px #999;}
+.one_fourth:last-of-type{margin-right:0 !important;}
+.one_fourth p{ font-family:'Source-Reg'; font-size:15px; word-wrap:break-word;} 
+.one_one{background-color:#FFF; overflow:hidden; margin:15px 0 15px 0;}
+.news-list-date{font-family:'Source-Reg'; text-transform:uppercase; font-size:14px;}
+.list-txt-wrapper{padding:15px 20px 0 20px;}
+.top-space{ padding:20px !important;}
+
+#home_slider{max-height:350px !important;}
+.metaslider .caption-wrap{background: none !important; opacity:100 !important; width:1040px !important; margin:0 auto !important; position:relative !important; top: -270px; font-family:'Source-Reg';}
+.metaslider .caption-wrap .caption{width:825px !important;}
+.metaslider .caption-wrap .caption h1{line-height:36px !important;}
+.metaslider .caption-wrap .caption ul li{font-size:26px; margin:10px 0;}
+.metaslider .caption-wrap .caption ul button{background:none; padding:6px 13px; border:1px solid #FFBE00; font-family:'Source-Reg'; font-size:20px; color:#FFF;}
+
+/* ------ INITIATIVES -------- */
+
+.initiative-brief-desc{height:130px; width:100%; clear: both; background-color:#FFF; font-family:'Source-Reg'; font-size:15px;}
+.home-initiatives-id{height:140px; width:336px; }
+.initia-quote{font-family:'Source-Reg'; font-size:15px ; color:#9F9F9F ;width:265px; background-color:#F5F5F5;}
+.initia-quote p{padding:15px;}
+
+/* ------ NEWS -------- */
+
+.new-item{width:337px; float:left;}
+.custom-pagination{clear:both;}
+.feat_list{background-color:#FFF; overflow:hidden; margin:15px 0 15px 0;
+			-moz-box-shadow:    0 1px 3px -1px #999;
+			-webkit-box-shadow: 0 1px 3px -1px #999;
+			box-shadow:         0 1px 3px -1px #999;}
+.feat_list img{float: left; width:422px;}
+.content_feat_list{float:left; width:617px;}
+.content_feat_list p{color:#323232; font-family: 'Source-Reg'; font-size:15px;}
+.not-feat-list{clear:both;}
+.news-content img{max-width:248px !important; height:auto !important; float:right; margin:30px 0 30px 30px;}
+.content_feat_list .post-date, .content_feat_list h2.featured, .content_feat_list .content {margin-left:20px;}
+.content_feat_list .post-date{margin-top:15px;}
+
+/* ------ ABOUT -------- */
+
+.page-nav{font-family:'Source-Reg'; font-size:15px ;text-transform:uppercase; height:30px; border-bottom:1px solid #FFBE00; margin-bottom:20px;}
+.page-nav li{float:left; list-style:none; margin-right:20px;}
+.page-nav a{color:#5096A0;}
+.page-nav a:active{}
+
+.page-nav-right{font-family:'Source-Reg'; font-size:15px; text-transform:uppercase; height:30px; margin-bottom:12px;}
+
+/* ------ RESOURCES -------- */
+.resource-list{margin:11px 0;}
+.resource-list h3{ width:500px; float:left; margin: 25px 0 25px 5px;}
+.resource-list a{float:left; font-family:'Source-Reg'; font-size:18px; margin: 28px 0 0 0;}
+.resource-list a p{margin:0 0 0 5px;}
+.resource-list li{list-style:none; border-bottom:1px solid #E6E6E6; overflow:hidden; clear:both;}
+.resource-list img, .resource-list p{float:left;}
+.resources-list-item {margin:15px 0 0 0; min-height:220px !important;}
+.resources-list-item  h3{min-height: 160px;}
+.list-txt-wrapper a{font-family:'Source-Reg'; font-size:18px;}
+.list-txt-wrapper a img{float:left;}
+.list-txt-wrapper a p{float:left; margin:0 0 0 5px; font-size:18px;}
+
+/* ------ MEMBERSHIP -------- */
+.membership_info{ list-style:none; font-size: 15px; width:517px;}
+.membership_info h3{margin:0 0 5px 0;}
+.membership_info hr{background-color:#4BA0AA; width:40px; height:4px; border:0; margin:0 0 20px 0;}
+.membership_info, .price{float:left; list-style:none; font-family:'Source-Reg';}
+.price{font-size: 40px; margin:61px 0 0 10px; color:#FFBE00;}
+.membership-steps{clear:both;}
+.membership-steps h4{border:none !important;}
+.membership-steps ul li{background-color:#F5F5F5; border: none !important; padding:15px; margin:0 0 10px 0;}
+.membership-steps ul li:last-child{background:none;}
+.membership-steps ul li h3{font-size:27px !important; color:#FFBE00;}
+
+.year-item{width:100%; clear:both;}
+.active-members-content{font-family:'Source-Reg';}
+.active-members-content p{font-size:18px; background-color:#FFBE00; color:#FFF; max-width:230px;}
+.active-members-content ul{margin:0 0 30px 0; border-bottom:1px solid #E6E6E6;}
+.active-members-content li{font-size:25px; margin:15px 0;}
+.active-members-content p{padding:0 5px; margin: 15px 0 !important;}
+
+/* -------- EVENTS -------- */
+
+.feat_list .post-date{color:#323232 !important;}
+.post-date{font-family:'Source-Reg'; font-size:15px !important; color:#323232 !important; padding:0 5px; max-width:137px;}
+h3.title-full-width{width:100% !important; margin:10px 0;}
+.event-resource{border:none !important; width:21%; height:113px; float:left; clear:none !important; background-color:#F5F5F5; margin:0 10px 0 0;}
+.event-resource a{color:#5096A0 !important; margin:0;}
+.event-resource a p{font-size:16px !important; height:60px; width:130px; margin:10px 0 0px 10px;}
+.event-resource img{clear:both; margin:0 0 0 10px;}
+.event-resource-list{clear:both; overflow:hidden; margin:15px 0 0 0;}
+
+/* -------- CONTACT -------- */
+.entry-contact{width:730px;}
+.entry-contact form{width:90%;}
+.entry-contact input, .entry-contact textarea{width:80% !important;}
+.entry-contact textarea{padding:0 15px !important;}
+.entry-contact p{font-family:'Source-Reg'; font-size:25px; margin:15px 0;}
+.entry-contact input[type="submit"]{font-family:'Source-Reg' !important; background-color:#4BA0AA !important;}
